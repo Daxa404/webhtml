@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Frames Structure</title>
+</head>
+<frameset rows="100,*">
+   <frame src="banner.html" name="topFrame" scrolling="no">
+   <frameset cols="20%,80%">
+       <frame src="menu.html" name="menuFrame">
+       <frame src="default_content.html" name="contentFrame">
+   </frameset>
+   <noframes>
+       <body>Your browser does not support frames.</body>
+   </noframes>
+</frameset>
+</html>

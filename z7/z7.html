@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Анкета</title>
+</head>
+<body>
+<h2>Анкета по выбранной теме</h2>
+<form id="surveyForm">
+    <label for="name">Имя:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br><br>
+    
+    <label for="password">Пароль:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+    
+    <label>Независимый переключатель:</label><br>
+    <input type="radio" id="independent1" name="independent" value="option1">
+    <label for="option1">Опция 1</label><br>
+    <input type="radio" id="independent2" name="independent" value="option2">
+    <label for="option2">Опция 2</label><br><br>
+    
+    <label>Зависимые переключатели:</label><br>
+    <input type="checkbox" id="dependent1" name="dependent1" value="check1">
+    <label for="check1">Выбор 1</label><br>
+    <input type="checkbox" id="dependent2" name="dependent2" value="check2">
+    <label for="check2">Выбор 2</label><br><br>
+    
+    <label for="dropdown">Выберите опцию:</label><br>
+    <select id="dropdown" name="dropdown">
+        <option value="option1">Опция 1</option>
+        <option value="option2">Опция 2</option>
+        <option value="option3">Опция 3</option>
+    </select><br><br>
+    
+    <button type="reset">Очистить форму</button>
+</form>
+</body>
+</html>
